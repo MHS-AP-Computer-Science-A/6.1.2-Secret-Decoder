@@ -18,59 +18,66 @@ public class SecretDecoder {
 
         // CLUE 1
         // The second letter of the message should be the uppercase letter 'P'.
-     
+        
 
         // CLUE 2
         // The character at index 0 is the same as the character currently at index 5.
         // ** You many NOT use a character literal in your answer. **
-
+        
 
         // CLUE 3
         // The character at index 3 is the same as the character currently at index 8.
         // ** You many NOT use a character literal in your answer. **
-
+        
 
         // CLUE 4
         // The character at index x should be set to the character at the very next index.
-        // ** Your answer must use x  ** 
-
+        // ** Your answer must use x twice ** 
+        int x = 4;
+        
 
         // CLUE 5 
-        // The character at index y should be set the the character 4 indexes to the left.
-        // ** Your answer must use y and 4 ** 
-
+        // The character at index y should be set to the character 4 indexes to the left.
+        // ** Your answer must use y twice ** 
+        int y = 6;
+        
 
         // CLUE 6
-        // The character at index z should be set the the character 4 indexes to the right.
-        // ** Your answer must use z and 4 ** 
+        // The character at index z should be set to the character 4 indexes to the right.
+        // ** Your answer must use z twice** 
+        int z = 5;
+        
 
 
         // CLUE 7 
-        // The letters at index 8 and 10 need to be swapped.
-        // ** You may NOT use any char literals. Making a char variable could be helpful. **
+        // The letters at indexes 8 and 10 need to be swapped.
+        // ** You may NOT use any literal characters like 'S' or 'C' **
+        
 
 
         // CLUE 8
         // The letters at index 2 and 8 need to be swapped.
-        // ** You may NOT use any char literals. Making a char variable could be helpful. **
- 
+        // ** You may NOT use any literal characters **
+        
+
 
         // CLUE 9 
         // The letter 'O' belongs at index 7.
+        
       
 
         // CLUE 10 
         // The letter 'C' belongs at index 8.
+        
       
 
         // CLUE 11 
         // The letter 'K' belongs at index 9.
-     
+
 
         // CLUE 12 
         // The final character of the message is '!'
         // ** You MUST include message.length in your answer **
-       
 
 
         // ======================================================================
